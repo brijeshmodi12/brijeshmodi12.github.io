@@ -158,7 +158,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 }
 
 #profile .portrate {
-	background-image: url(../img/bmitaly.jpg);
+	background-image: url(../img/bm_left.jpeg);
 	width: 125px;
 	margin: 0 auto;
 	height: 125px;
@@ -385,6 +385,7 @@ ul#navigation li .icon {
 	padding:15px;
 }
 .biothumb .overlay h1{
+
 	font-size: 30px;
 	/*Edit here*/
 }
@@ -615,7 +616,20 @@ ul.timeline li .data .text {
 .ul-withdetails li .image {
 	position: relative;
 	overflow: hidden;
+	
+
 }
+
+/*Brijesh*/
+.image{
+	filter:grayscale(20%);
+}
+
+/*.image:hover{
+	filter:grayscale(20%);
+}*/
+
+
 
 .ul-withdetails li .imageoverlay {
 	position: absolute;
